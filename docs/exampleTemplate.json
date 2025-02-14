@@ -1,6 +1,6 @@
 {
     "version": 1,
-    "name": "Chat Completion Example",
+    "name": "Gemini",
 
     "defaultValues": {
         "endpoint": "https://api.openai.com/v1/chat/completions",
@@ -28,8 +28,6 @@
             { "externalName": "temperature", "samplerID": "temp" },
             { "externalName": "top_p", "samplerID": "top_p" },
             { "externalName": "presence_penalty", "samplerID": "presence_pen" },
-            { "externalName": "frequency_penalty", "samplerID": "freq_pen" },
-            { "externalName": "seed", "samplerID": "seed" }
         ],
         "completionType": {
             "type": "chatCompletions",
